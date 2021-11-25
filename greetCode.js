@@ -1,4 +1,4 @@
-const greet =  (name) => {
+const greetCode =  (name) => {
 
     if(name === null){
         return "Hello there!" ;
@@ -14,4 +14,6 @@ const greet =  (name) => {
         return "Hello, " + name;
     }  
 }
-module.exports = greet;
+module.exports = greetCode;
+//export default(greet);
+//export {greetCode};
